@@ -1,0 +1,104 @@
+.parent{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.childOne{
+  width:60%;
+  padding:4%;
+  border: 2px solid #ddd;
+  margin:4%;
+  box-shadow: 3px 3px 3px #ddd;
+  border-radius: 15px;
+}
+.childTwo{
+  width:60%;
+  padding:2%;
+  border: 5px solid #3DBEFF;
+  margin:12%;
+  color: green;
+  font-family:"Arial";
+  font-size:15px
+}
+
+img{
+  width:35%;
+  length:30%;
+  display:block;
+  margin-left:auto;
+  margin-right: auto;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+  .parent{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .childOne{
+    width:85%;
+    padding:4%;
+    border: 2px solid #ddd;
+    margin:4%;
+  }
+  .childTwo{
+    width:70%;
+    padding:2%;
+    border: 5px solid #3DBEFF;
+    margin:2%;
+  }
+
+}
+@media only screen and (min-width:480px) and (max-width:768px){
+  .parent{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .childOne{
+    width:85%;
+    padding:4%;
+    border: 2px solid #ddd;
+    margin:4%;
+  }
+  .childTwo{
+    width:70%;
+    padding:2%;
+    border: 5px solid #3DBEFF;
+    margin:2%;
+  }
+  h2{
+    text-align: center;
+    font-style: oblique;
+  }
+  p{
+    text-align: center;
+  }
+
+}
+@media only screen and (min-width:1025px) and (max-width:1550px){
+  .parent{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .childOne{
+    width:85%;
+    padding:4%;
+    border: 2px solid #ddd;
+    margin:4%;
+  }
+  .childTwo{
+    width:70%;
+    padding:2%;
+    border: 5px solid #3DBEFF;
+    margin:2%;
+  }
+  h2{
+    text-align: center;
+    font-style: oblique;
+  }
+  p{
+    text-align: center;
+  }
+
+}
