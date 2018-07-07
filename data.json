@@ -3,5 +3,42 @@
     "Name":"K.N.S.PRANEETH",
     "Label":"Student",
     "Email":"Lunaticfringe@gmail.com"
+  },
+  "career":{
+    "info":"Never give up, and be confident in what you do. There may be tough times, but the difficulties which you face will make you more determined to achieve your objectives and to win against all the odds."
+  },
+  "education":[{
+    "degree":"B.Tech",
+    "institute":"PVPSIT",
+    "year":"2016-2020"
+  },
+  {
+    "degree":"Intermediate",
+    "institute":"Narayana Junior College",
+    "year":"2014-2016"
+  },
+  {
+    "degree":"CBSE",
+    "institute":"VPSPS",
+    "year":"2006-2014"
   }
+],
+"skills":[
+  {
+    "title":"Languages",
+    "content":["c","python","java","c++"]
+  },
+  {
+    "title":"DataBase",
+    "content":["SQL","MongoDB","MySql"]
+  },
+  {
+    "title":"Web Technologies",
+    "content":["HTML","CSS","javascript","PHP"]
+  },
+  {
+    "title":"Frameworks",
+    "content":["Django","CodeIgniter"]
+  }
+]
 }
